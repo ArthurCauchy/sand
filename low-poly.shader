@@ -1,5 +1,7 @@
 shader_type spatial;
 
+// color property
+uniform vec4 color : hint_color;
 // heightmap texture
 uniform sampler2D tex;
 // factor of height
@@ -15,6 +17,6 @@ void fragment() {
 	// same normal vector for every face
 	NORMAL = normalize(cross(dFdx(VERTEX), dFdy(VERTEX)));
 	// green color
-	vec3 material_color = vec3(0.2, 1.0, 0.2);
+	vec3 material_color = color.rgb;
 	ALBEDO = material_color;
 }
