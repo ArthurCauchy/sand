@@ -6,6 +6,7 @@ var time = 0
 
 func _ready():
 	$Camera.look_at($Terrain.translation, Vector3(0, 1, 0))
+	$UI/ColorPickerButton.color = $Terrain.color
 
 func _process(delta):
 	if lamp_moving:
