@@ -7,10 +7,7 @@ path="res://.import/terrain_screenshot.png-713722adb0551b58278370c64d63718d.stex
 [deps]
 
 source_file="res://terrain_screenshot.png"
-source_md5="c2770627ea46085faa8f41117b873b36"
-
 dest_files=[ "res://.import/terrain_screenshot.png-713722adb0551b58278370c64d63718d.stex" ]
-dest_md5="dbe29fdab36024a9b2269d564538a6d3"
 
 [params]
 
